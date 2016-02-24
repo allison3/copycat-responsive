@@ -179,9 +179,16 @@ footer nav li a:hover{
     padding-bottom: 0;
     }
 
+    header{
+      padding:10px 30px;
+    }
 
     header .text {
       display: none;
+    }
+
+    main {
+      padding:10px 15px;
     }
 
     .profile .image {
@@ -190,6 +197,10 @@ footer nav li a:hover{
       display: inline-block;
       box-sizing: border-box;
       margin-right: 8%;
+    }
+
+    .profile .image img{
+      max-width: 100%;
     }
 
     .profile .bio {
